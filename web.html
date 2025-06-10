@@ -1,65 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web</title>
+    <meta name="robots" content="noindex">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="mutual.css">
     <link rel="stylesheet" href="web.css">
 </head>
 
 <body>
-
-    <div class="web-content-wrapper">
-        <div class="web-picture">
-            <img src="min_computer_min.webp" alt="Billede fra Web-Tema">
-            <br>
-            <h1>Web - Studiestartsprøve: Webside </h1>
-        </div>
-        <div class="web-text">
-            <br>
-            <p>
-                Under første tema på semesteret lærte vi det helt grundlæggende omkring HTML og CSS.
-                <br><br>
-                Her skulle vi trinmæssigt at opbygge en hjemmeside skolen præsenterede for os. Siden omhandlede
-                forskellige typer computere og hvilket slags indmad de har
-                haft igennem tiden. Opgaven havde særligt fokus på indhold, styling og opsætning igennem “reposive
-                design”. <br><br>
-                Responsive
-                design betyder at alt det indhold, der er på hjemmesiden, skal passe til alle slags skærme størrelser -
-                desktop, tablet
-                og mobil fx.
-                <br><br>
-                Her lærte vi særligt om “media-queries” og herunder flex-box, grids, grid-columns og
-                grid-rows, som vi
-                kunne benytte til at forme hjemmesiden efter vores behov med tilgangen "mobile first".
-                <br><br>
-                Erfaringsmæssigt var det givende men svært
-                også at blive
-                kastet hurtigt ud i og igennem. Jeg fik måske ikke helt det kunnen ind under neglene jeg gerne ville,
-                men dette har jeg
-                så forsøgt at lære imens jeg har skabt min portfolioside, særligt ift at kode simpelt responsivt design.
-
-
-        </div>
-        </p>
+    <div class="header">
+        <button class="burger-btn" id="burgerBtn">
+            <span class="burger-lines">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </span>
+        </button>
     </div>
 
-    <br>
-    <a href="https://magnusrpoulsen.dk/kea/02_web/website/index.html" class="responsive-button" target="_blank">Gå til
-        Web-Tema</a>
-    <br><br>
-    <h3 style="text-align: center;">Scroll til højre for at se screenshots fra projektet herunder:</h3>
+    <header>
+        <h1 class="navn"><a href="index.html">MAGNUS R. POULSEN</a></h1>
+        <div class="mobile-nav menu-overlay" id="menuOverlay">
+            <nav class="menu-content">
+                <div>
+                    <a href="web.html" class="menu-item">Web</a>
+                    <a href="uxui.html" class="menu-item">Ux</a>
+                    <a href="animation.html" class="menu-item">Animation</a>
+                    <a href="indhold.html" class="menu-item">Indhold</a>
+                    <a href="about.html" class="menu-item">Om Mig</a>
+                </div>
+            </nav>
+        </div>
+        <nav class="desktop-nav temamenu">
+            <div>
+                <nav>
+                    <a href="web.html">Web</a>
+                    <a href="uxui.html">Ux</a>
+                    <a href="animation.html">Animation</a>
+                    <a href="indhold.html">Indhold</a>
+                    <a href="about.html">Om Mig</a>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="web-content-wrapper">
+            <div class="web-picture">
+                <img src="img/web/min_computer_min.webp" alt="Billede fra Web-Tema">
+                <br>
+                <h1>Web - Studiestartsprøve: Webside</h1>
+            </div>
+            <div class="web-text">
+                <br>
+                <p>
+                    Under første tema på semesteret lærte vi det helt grundlæggende omkring HTML og CSS.
+                    <br><br>
+                    Her skulle vi trinmæssigt at opbygge en hjemmeside skolen præsenterede for os. Siden omhandlede
+                    forskellige typer computere og hvilket slags indmad de har
+                    haft igennem tiden. Opgaven havde særligt fokus på indhold, styling og opsætning igennem "reposive
+                    design". <br><br>
+                    Responsive
+                    design betyder at alt det indhold, der er på hjemmesiden, skal passe til alle slags skærme
+                    størrelser -
+                    desktop, tablet
+                    og mobil fx.
+                    <br><br>
+                    Her lærte vi særligt om "media-queries" og herunder flex-box, grids, grid-columns og
+                    grid-rows, som vi
+                    kunne benytte til at forme hjemmesiden efter vores behov med tilgangen "mobile first".
+                    <br><br>
+                    Erfaringsmæssigt var det givende men svært
+                    også at blive
+                    kastet hurtigt ud i og igennem. Jeg fik måske ikke helt det kunnen ind under neglene jeg gerne
+                    ville,
+                    men dette har jeg
+                    så forsøgt at lære imens jeg har skabt min portfolioside, særligt ift at kode simpelt responsivt
+                    design.
+                </p>
+                <a href="https://magnusrpoulsen.dk/kea/02_web/website/index.html" class="responsive-button"
+                    target="_blank">Gå
+                    til Web-Tema</a>
+            </div>
+        </div>
+        <br><br>
+
+        <br>
+        <h3 style="text-align: center;">Scroll til højre for at se screenshots fra projektet herunder:</h3>
 
 
-    <div class="slideshow">
-        <img src="web1.png" alt="Web1">
-        <img src="web2.png" alt="Web2">
-        <img src="web3.png" alt="Web3">
-        <img src="web4.png" alt="Web4">
-        <img src="web5.png" alt="Web5">
-    </div>
+        <div class="slideshow">
+            <img src="img/web/web1.webp" alt="Web1">
+            <img src="img/web/web2.webp" alt="Web2">
+            <img src="img/web/web3.webp" alt="Web3">
+            <img src="img/web/web4.webp" alt="Web4">
+            <img src="img/web/web5.webp" alt="Web5">
+        </div>
 
     </main>
     <script src="burgermenu.js"></script>
