@@ -4,46 +4,19 @@ body {
   background: #f4f4f4;
 }
 
-/* Button*/
-.responsive-button {
-  display: inline-block;
-  padding: 12px 24px;
-  font-size: 16px;
-  text-align: center;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.responsive-button:hover {
-  background-color: #0056b3;
-}
-
 @media only screen and (min-width: 768px) {
-  .indhold-content-wrapper {
+  .web-content-wrapper {
     display: flex;
     justify-content: space-between;
   }
 
-  .indhold-picture {
+  .web-picture {
     width: 30%;
   }
 
-  .indhold-text {
+  .web-text {
     width: 60%;
     padding-left: 20px;
-  }
-}
-
-/* Button BreakPoint */
-@media (max-width: 768px) {
-  .responsive-button {
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 18px;
   }
 }
 
