@@ -1,38 +1,18 @@
 body {
-  font-family: "Times New Roman", Times, serif;
   padding: 40px;
-  background: #f4f4f4;
-}
-
-/* Button*/
-.responsive-button {
-  display: inline-block;
-  padding: 12px 24px;
-  font-size: 16px;
-  text-align: center;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.responsive-button:hover {
-  background-color: #0056b3;
 }
 
 @media only screen and (min-width: 768px) {
-  .animation-content-wrapper {
+  .web-content-wrapper {
     display: flex;
     justify-content: space-between;
   }
 
-  .animation-picture {
+  .web-picture {
     width: 30%;
   }
 
-  .animation-text {
+  .web-text {
     width: 60%;
     padding-left: 20px;
   }
@@ -43,7 +23,7 @@ body {
   .responsive-button {
     width: 100%;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 1.1rem;
   }
 }
 
